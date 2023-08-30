@@ -1,5 +1,55 @@
+/* General CSS Styles */
+
 * {
-    background-color: #FFC7EA;
+    font-family: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
 }
+
+.button-primary {
+    color: #FFFFFF;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button-primary:hover {
+    background-color: #c62346;
+}
+
+/* General CSS Styles */
+
+
+/* Header Section CSS Style */
+
+.header-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    margin-right: 50px;
+}
+
+.header-content>h1 {
+    font-size: 80px;
+    margin-bottom: 32px;
+}
+
+.header-content>button {
+    margin-top: 32px;
+}
+
+.header-img {
+    margin-left: 50px;
+}
+
+.header-img>img {
+    width: 80%;
+    height: 80%;
+}
+
+/* Header Section CSS Style */
