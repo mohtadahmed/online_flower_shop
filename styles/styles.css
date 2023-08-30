@@ -64,6 +64,8 @@
 /* Feature Flower Section CSS Styles */
 
 .feature-container {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,3 +123,37 @@
 #flower-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
+
+/* Feature Flower Section CSS Styles */
+
+/* Support and Delivery Section CSS Styles */
+
+.support-section {
+    width: 80%;
+    margin: 20px auto 50px;
+}
+
+.support-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.support-content {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content>p {
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 24px;
+}
+
+/* Support and Delivery Section CSS Styles */
