@@ -18,6 +18,10 @@
     background-color: #c62346;
 }
 
+.text-primary-color {
+    color: rgba(39, 39, 39, 0.60);
+}
+
 /* General CSS Styles */
 
 
@@ -28,6 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 80px;
 }
 
 .header-content {
@@ -35,7 +40,9 @@
 }
 
 .header-content>h1 {
+    color: #272727;
     font-size: 80px;
+    font-weight: 800;
     margin-bottom: 32px;
 }
 
@@ -53,3 +60,64 @@
 }
 
 /* Header Section CSS Style */
+
+/* Feature Flower Section CSS Styles */
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.feature-content {
+    margin-bottom: 80px;
+}
+
+.feature-content>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
+.flowers {
+    display: flex;
+}
+
+.flower-tree {
+    padding: 20px;
+}
+
+.flower-tree>p {
+    color: #272727;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.flower-image {
+    padding: 45px 45px 0px;
+    margin-right: 30px;
+    border-radius: 300px 300px 0 0;
+    width: 314px;
+    height: 471px;
+}
+
+#flower-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+#flower-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flower-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
