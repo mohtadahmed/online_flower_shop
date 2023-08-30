@@ -157,3 +157,42 @@
 }
 
 /* Support and Delivery Section CSS Styles */
+
+/* Video Sectoin CSS Styles */
+
+.video-section {
+    background-color: black;
+    margin: 50px 0px;
+}
+
+.video-container {
+    padding: 100px 0px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content {
+    margin-right: 50px;
+    color: white;
+    text-align: center;
+}
+
+.video-content>iframe {
+    box-shadow: 0px 0px 40px #ffffff74;
+}
+
+.video-content>h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#red-color {
+    color: #ff0037;
+}
+
+
+
+/* Video Sectoin CSS Styles */
