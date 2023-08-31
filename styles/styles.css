@@ -233,3 +233,38 @@
 }
 
 /* Hot Deal Section CSS Styles */
+
+/* Social Event Section CSS Styles */
+
+.social-event-section {
+    margin: 100px 0px;
+}
+
+.social-event-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-event-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.social-event-title>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.social-event-title>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.social-event-img>img {
+    margin-right: 24px;
+}
+
+/* Social Event Section CSS Styles */
