@@ -193,6 +193,43 @@
     color: #ff0037;
 }
 
-
-
 /* Video Sectoin CSS Styles */
+
+/* Hot Deal Section CSS Styles */
+
+.hot-deal-section {
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 40px 0px;
+}
+
+.hot-deal-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.hot-deal-title {
+    margin-right: 150px;
+    text-align: center;
+}
+
+.hot-deal-title>h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.hot-deal-title>p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+}
+
+#off-text {
+    color: #E55473;
+}
+
+/* Hot Deal Section CSS Styles */
