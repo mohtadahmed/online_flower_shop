@@ -320,3 +320,37 @@
 }
 
 /* Latest Deal Section CSS Styles */
+
+/* Footer Section CSS Styels */
+
+.footer-section {
+    background-color: #111010;
+    padding: 100px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content>h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-content>p {
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+}
+
+#footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+
+#flower-name {
+    color: #E55473;
+}
+
+/* Footer Section CSS Styels */
